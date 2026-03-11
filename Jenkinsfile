@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git branch: 'main', url: 'git@github.com:sneha1822/JenkinsTomcatDemo.git'
+                git branch: 'main', url: 'https://github.com/sneha1822/JenkinsTomcatDemo.git'
             }
         }
 
